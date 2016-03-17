@@ -2,6 +2,8 @@
 
 #### By Jennifer Lee Bell
 
+#### This is a social login example
+
 ## Setup
 
 Open terminal
@@ -21,5 +23,3 @@ _`$ rake db:migrate` to add table information_
 _open new tab in terminal and run `$ rails server` in the project directory_
 
 _go to `localhost:3000` in your favorite browser to open Janrain Test_
-
-## Technologies Used
