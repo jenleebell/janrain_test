@@ -9,7 +9,7 @@
         if (typeof window.janrain !== 'object') window.janrain = {};
         if (typeof window.janrain.settings !== 'object') window.janrain.settings = {};
 
-        janrain.settings.tokenUrl = 'window.location.origin + '/social_callback'';
+        janrain.settings.tokenUrl = window.location.origin + '/social_callback';
 
         function isReady() { janrain.ready = true; };
         if (document.addEventListener) {
