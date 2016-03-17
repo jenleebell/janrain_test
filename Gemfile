@@ -19,7 +19,7 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'launchy'
   gem 'pry'
-  gem 'sqlite3'
+  gem 'pg'
 end
 
 group :test do
