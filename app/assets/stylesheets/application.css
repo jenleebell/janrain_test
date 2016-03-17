@@ -24,6 +24,20 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+.container {
+  font-family: 'Lato', sans-serif;
+}
+
+.intro {
+
+  font-size: 5em;
+}
+
 .janrain {
-  margin-top: 10px;
+  margin-top: 40px;
+}
+
+.success {
+  margin-left: 20px;
+  font-size: 2em;
 }
