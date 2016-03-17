@@ -66,7 +66,6 @@ module Rpx
       if data['stat'] != 'ok'
         raise RpxException.new(resp), 'Unexpected API error'
       end
-      binding.pry
       data
     end
   end
