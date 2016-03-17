@@ -1,28 +1,25 @@
-== README
+# Janrain Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### By Jennifer Lee Bell
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+Open terminal
 
-* System dependencies
+_`$ git clone https://github.com/jenleebell/janrain_test`_
 
-* Configuration
+_`$ cd janrain_test` to enter directory_
 
-* Database creation
+_`$ bundle` to install gems_
 
-* Database initialization
+_`$ postgres` to start a postgres server_
 
-* How to run the test suite
+_`$ rake db:create` to create the database_
 
-* Services (job queues, cache servers, search engines, etc.)
+_`$ rake db:migrate` to add table information_
 
-* Deployment instructions
+_open new tab in terminal and run `$ rails server` in the project directory_
 
-* ...
+_go to `localhost:3000` in your favorite browser to open Janrain Test_
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Technologies Used
